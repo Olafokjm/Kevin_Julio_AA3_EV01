@@ -1,0 +1,12 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración local
+.env
+
+# Logs
+*.log
+
+# Archivos de base de datos (si usas locales)
+*.sql

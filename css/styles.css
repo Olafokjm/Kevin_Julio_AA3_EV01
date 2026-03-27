@@ -1,0 +1,177 @@
+/* ========================================= */
+/* ESTILOS GENERALES Y LAYOUT */
+/* ========================================= */
+body {
+    background-color: #1a1a1a; /* Fondo oscuro principal */
+    color: #ffffff; /* Texto claro principal */
+    font-family: Arial, sans-serif; /* Fuente básica */
+}
+
+/* Estilos de la barra lateral (Sidebar) */
+.sidebar {
+    background-color: #212529; /* Color de fondo de la barra lateral */
+    min-height: 100vh;
+    padding: 0;
+    position: fixed; /* Fija la barra lateral */
+    width: 200px;
+}
+
+/* Enlaces de navegación de la barra lateral */
+.sidebar .nav-link {
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 0;
+    margin-bottom: 5px;
+    transition: background-color 0.2s; /* Transición suave al pasar el ratón */
+}
+
+.sidebar .nav-link:hover {
+    background-color: #343a40;
+}
+
+/* Botón activo */
+.sidebar .nav-link.active {
+    background-color: #dc3545; /* Rojo para el botón activo */
+    font-weight: bold;
+}
+
+/* Contenido principal */
+.content {
+    margin-left: 200px; /* Margen para el contenido principal */
+    padding: 20px;
+    width: 100%; /* Asegura que ocupe el espacio restante */
+}
+
+/* Encabezado superior */
+.header-top {
+    background-color: #212529;
+    color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo del Logo LPC (Texto) */
+.auth-page .logo-display {
+    width: 120px; /* Ancho deseado para el logo en estas páginas */
+    height: auto;
+    margin: 0 auto 10px auto; /* Centrar y añadir margen inferior */
+    display: block; /* Asegura que el margen auto funcione para centrar */
+}
+.logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Estilo para la imagen del logo dentro de la barra lateral */
+.sidebar .logo-img-container {
+    height: 40px; /* Altura del contenedor para el logo */
+    margin-bottom: 5px; /* Espacio debajo del logo */
+}
+
+.sidebar .logo-img-container img {
+    height: 100%; /* Ajusta la altura de la imagen al contenedor */
+    width: auto; /* Mantiene la proporción */
+    vertical-align: middle; /* Alineación vertical */
+}
+
+/* Separador en la barra lateral */
+.sidebar hr {
+    border-top: 1px solid #495057; 
+    margin-top: 20px;
+}
+
+/* Enlace de Configuración (con fondo) */
+.sidebar .nav-config {
+    background-color: #2c3034; 
+    margin-top: 10px;
+}
+
+/* ========================================= */
+/* ESTILOS ESPECÍFICOS DE COMPONENTES */
+/* ========================================= */
+
+/* Tablas */
+.table-dark {
+    --bs-table-bg: #2c3034; /* Fondo de la tabla */
+    --bs-table-striped-bg: #343a40; /* Fondo para filas impares */
+    color: #ffffff;
+}
+
+/* Formularios (Input y Select) */
+.form-control-dark, .form-select-dark {
+    background-color: #212529;
+    color: #ffffff;
+    border: 1px solid #495057;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.form-control-dark::placeholder {
+    color: #adb5bd;
+}
+
+/* Botones con estilo oscuro/personalizado */
+.btn-dark-custom {
+    background-color: #343a40;
+    border-color: #495057;
+    color: #ffffff;
+}
+
+/* Tarjetas (Dashboard) */
+.card {
+    background-color: #2c3034; /* Color de las tarjetas */
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* ========================================= */
+/* PÁGINAS DE AUTENTICACIÓN (LOGIN/REGISTRO) */
+/* ========================================= */
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.login-container {
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    text-align: center;
+}
+.register-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+.btn-red {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #ffffff;
+    height: 50px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.forgot-password {
+    color: #adb5bd;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    display: block;
+}
+.btn-dark-register {
+    background-color: #343a40;
+    border-color: #495057;
+    color: #ffffff;
+    height: 50px;
+    font-size: 1.1rem;
+    float: right;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
