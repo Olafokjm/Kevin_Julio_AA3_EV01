@@ -7,6 +7,3 @@ Thumbs.db
 
 # Logs
 *.log
-
-# Archivos de base de datos (si usas locales)
-*.sql
