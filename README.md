@@ -20,7 +20,7 @@ C:\xampp\htdocs
 - Importar archivo database.sql
 
 5. Ejecutar sistema:
-http://localhost/Kevin_Julio_AA1_EV01/index.php
+http://localhost/Kevin_Julio_AA3_EV01/index.php
 
 ## Credenciales
 Usuario: admin
